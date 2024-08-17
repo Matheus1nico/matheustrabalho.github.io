@@ -1,0 +1,89 @@
+body {
+    width: auto;
+    height: auto;
+}
+#top, a {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-inline: 9%;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+}
+.links{
+    background-color: rgb(53, 53, 53);
+    color: burlywood;
+    border:solid white 6px;
+    align-items: center;
+}
+
+.titulo{text-align: center;text-decoration: underline;font-size: 40px;}
+
+#sobreMim, #formacaoEducacional, #portfolio{display: flex;}
+
+#psobreMim{
+    margin-top:2px;
+    width: 50%;
+    font-size: 35px;
+    margin-left: 10%;
+    text-align: justify;
+    margin-right: 10px;
+}
+#imagemsbmim{
+    float: right;
+    border-radius: 15px;
+    margin-right: 30px;
+    border: solid rgb(0, 0, 0) 3px;
+    margin-left: 10px;
+}
+
+#pFormação,li{
+    margin-top:2px;
+    width: 50%;
+    font-size: 35px;
+    margin-left: 10%;
+    text-align: justify;
+    margin-right: 10px;
+
+}
+#imgFormação{
+    position:relative;
+    float: right;
+    border-radius: 15px;
+    margin-right: 30px;
+    border: solid rgb(0, 0, 0) 3px;
+    margin-left: 10px;
+        
+}
+
+#pPorthtml,#pPortpython{
+    font-size: 35px;
+    text-align: center;;
+}
+#imgPorthtml{
+    border: solid 2px orange;
+    margin-left: 38%;
+}
+#imgPortpython{
+    margin-left:40%;
+    border: 2px solid blue;
+}
+#areaContatos{
+    background-color: rgb(0, 26, 54);
+    height: 600px;
+    border-radius: 10px;
+}
+
+.inputs{
+    margin-left: 30px;
+    border: solid 1.5px rgb(0, 21, 255);
+    border-radius: 5px;
+}
+.enunciado{
+    color: white;
+    margin-left: 20px;
+
+}
